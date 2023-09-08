@@ -97,7 +97,7 @@ public class StudentService {
             Student student = new Student();
             student.setId(19195101L + i);
             student.setNickname("student" + i);
-            student.setPassword(userPasswordToDBPassword("password" + i,temp));
+            student.setPassword(userPasswordToDBPassword("password" + i, temp));
             student.setSalt(temp);
             student.setRegisterDate(new Date());
             student.setLastLoginDate(new Date());
